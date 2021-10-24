@@ -1,0 +1,2 @@
+# QuantumultFOX
+Private USE.
