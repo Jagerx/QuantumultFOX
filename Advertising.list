@@ -4,6 +4,10 @@ DOMAIN-KEYWORD,adservice,REJECT
 DOMAIN-KEYWORD,analytics,REJECT
 DOMAIN-KEYWORD,analysis,REJECT
 
+# (A)
+# > 爱奇艺
+IP-CIDR, 203.107.63.154/32, REJECT
+
 # (G)
 # > Google
 DOMAIN-SUFFIX,doubleclick.net,REJECT
@@ -14,5 +18,14 @@ DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 
+# (M)
+# > 美颜相机（去首页和轮播广告）
+HOST, adui.tg.meitu.com, REJECT
+HOST, aaid.uyunad.com, REJECT
+
 # (N)
 # > NetEase
+
+# (T)
+# > 铁路12306
+HOST, ad.12306.cn, REJECT
