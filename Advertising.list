@@ -32,5 +32,5 @@ HOST, ad.12306.cn, REJECT
 
 # (Z)
 # 真不卡
-DOMAIN-SUFFIX, ttayy.cn, reject
-DOMAIN-SUFFIX, zhengxiaoliu.top, reject
+DOMAIN-SUFFIX, ttayy.cn, REJECT
+DOMAIN-SUFFIX, zhengxiaoliu.top, REJECT
