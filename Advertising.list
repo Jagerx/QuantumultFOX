@@ -29,3 +29,8 @@ HOST, aaid.uyunad.com, REJECT
 # (T)
 # > 铁路12306
 HOST, ad.12306.cn, REJECT
+
+# (Z)
+# 真不卡
+DOMAIN-SUFFIX, ttayy.cn, reject
+DOMAIN-SUFFIX, zhengxiaoliu.top, reject
