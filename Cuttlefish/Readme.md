@@ -1,4 +1,4 @@
-### Fock from DDGKSF2013/Cuttlefish
+### Fork from DDGKSF2013/Cuttlefish
 https://github.com/ddgksf2013/Cuttlefish
 
 #### 真B站去广告+解锁普通视频1080P高码率
