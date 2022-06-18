@@ -18,6 +18,10 @@ DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 
+# > HDOBOX去广告
+DOMAIN-SUFFIX, applovin.com, REJECT
+DOMAIN-SUFFIX, applvn.com, REJECT
+
 # (M)
 # > 美颜相机（去首页和轮播广告）
 HOST, adui.tg.meitu.com, REJECT
