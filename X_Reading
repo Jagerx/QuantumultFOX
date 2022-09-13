@@ -1,0 +1,15 @@
+hostname = user.ftmailbox.cn, api.infzm.com, ipadcms.caixin.com
+
+# FT中文网解锁会员权限（20220306) @ddgksf2013
+# user.ftmailbox.cn
+^https?:\/\/user\.ftmailbox\.cn\/ios-receipt-validation\.php.* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ftchinese.js
+
+# 南方周末 (2022.01.21) @I-am-R-E
+# api.infzm.com
+# 版本7.3.12，需登录，解锁高级年费会员课程 + 所有付费课程
+^https?:\/\/api\.infzm\.com\/mobile\/(user|contents\?|contents\/\d+\?|contents\/\d+\/isview\?|course_borrow|courses\/\d+\?|mall|course_items) url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/NanFangZhouMo.js
+
+# 财新周刊 @ddgksf2013
+# ipadcms.caixin.com
+# 原始地址：https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/ForOwnUse.conf
+http://ipadcms.caixin.com/tmp/articles/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cxzk.js  
