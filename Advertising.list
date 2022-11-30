@@ -32,7 +32,7 @@ HOST, aaid.uyunad.com, REJECT
 
 # (T)
 # > 铁路12306
-HOST, ad.12306.cn, REJECT
+# HOST, ad.12306.cn, REJECT
 
 # (Z)
 # 真不卡
