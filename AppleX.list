@@ -1,10 +1,9 @@
 # Apple Maps
-DOMAIN,dispatcher.is.autonavi.com,DIRECT
-DOMAIN,direction2.is.autonavi.com,DIRECT
-DOMAIN,store.is.autonavi.com,DIRECT
-DOMAIN,gspe19-cn-ssl.ls.apple.com,DIRECT
-DOMAIN,gspe12-cn-ssl.ls.apple.com,DIRECT
-DOMAIN,limit-rule.is.autonavi.com,DIRECT
+HOST-SUFFIX,dispatcher.is.autonavi.com,DIRECT
+HOST-SUFFIX,direction2.is.autonavi.com,DIRECT
+HOST-SUFFIX,cdn.apple-mapkit.com,DIRECT
+HOST-SUFFIX,s.mzstatic.com,DIRECT
+HOST-SUFFIX,store.is.autonavi.com,DIRECT
 
 # Block iOS Update
 DOMAIN,mesu.apple.com,REJECT
