@@ -1,7 +1,7 @@
 # Apple Maps
 HOST-SUFFIX,is.autonavi.com,DIRECT
-HOST-SUFFIX,cdn.apple-mapkit.com,DIRECT
 HOST-SUFFIX,s.mzstatic.com,DIRECT
+HOST-SUFFIX,cdn.apple-mapkit.com,DIRECT
 HOST-SUFFIX,weather-data.apple.com,DIRECT
 HOST-SUFFIX,play.itunes.apple.com,DIRECT
 HOST-SUFFIX,bag.itunes.apple.com,DIRECT
