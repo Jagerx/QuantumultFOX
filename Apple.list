@@ -1,0 +1,14 @@
+[Rule]
+# > Apple Maps
+PROCESS-NAME,com.apple.geod,Apple
+DOMAIN,direction2.is.autonavi.com,DIRECT
+DOMAIN,gspe19-cn-ssl.ls.apple.com,DIRECT
+DOMAIN,gspe12-cn-ssl.ls.apple.com,DIRECT
+DOMAIN,dispatcher.is.autonavi.com,DIRECT
+DOMAIN,limit-rule.is.autonavi.com,DIRECT
+
+# Block iOS Update
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,updates-http.cdn-apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT
