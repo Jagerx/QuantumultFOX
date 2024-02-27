@@ -1,8 +1,9 @@
 # Apple Maps
+DOMAIN,dispatcher.is.autonavi.com,DIRECT
 DOMAIN,direction2.is.autonavi.com,DIRECT
+DOMAIN,store.is.autonavi.com,DIRECT
 DOMAIN,gspe19-cn-ssl.ls.apple.com,DIRECT
 DOMAIN,gspe12-cn-ssl.ls.apple.com,DIRECT
-DOMAIN,dispatcher.is.autonavi.com,DIRECT
 DOMAIN,limit-rule.is.autonavi.com,DIRECT
 
 # Block iOS Update
