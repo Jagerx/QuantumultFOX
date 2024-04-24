@@ -7,6 +7,7 @@ DOMAIN-KEYWORD,analysis,REJECT
 # (F)
 # > FT中文网APP去广告
 DOMAIN-SUFFIX,adclick.g.doubleclick.net,REJECT
+URL-REGEX,^https?:\/\/ftmailbox\.cn\/ad_impression\/.+,REJECT
 
 # (G)
 # > Google
