@@ -1,6 +1,7 @@
 > ScriptName        Flighty
-> Author            @Kienphan2702
+> Author            PTK@Kienphan2702
 > UpdateTime        2024-08-01
+> LinkTo            https://raw.githubusercontent.com/kienphan2702/Quantumult-X/5d9e122866d30f941a10bccfe3136bbef0d0c95f/crack_app/config.conf
 
 [rewrite_local]
 
