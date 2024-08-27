@@ -18,6 +18,11 @@ DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 
+# (S)
+# > Sogou
+DOMAIN-SUFFIX,pro.cdn.ime.sogou.com,REJECT
+DOMAIN-SUFFIX,pro.cdn2.ime.sogou.com,REJECT
+
 # (T)
 # > 铁路12306
 # HOST, ad.12306.cn, REJECT
