@@ -9,7 +9,8 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/(paywall|get_story_more_info) url script-response-body https://raw.githubusercontent.com/Jagerx/QuantumultFOX/refs/heads/main/FTCN.js
+^https?:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/(paywall|get_story_more_info) url script-response-body https://raw.githubusercontent.com/Jagerx/QuantumultFOX/main/FTCN.js
+
 ^https?:\/\/ftmailbox\.cn\/ad_impression\/.+ url reject-200
 
 [mitm]
