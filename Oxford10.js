@@ -12,6 +12,7 @@
 ^https:\/\/oxadmin\.cp\.com\.cn\/api\/hot\/index url reject-dict
 #去除首页下方广告
 ^https:\/\/oxadmin\.cp\.com\.cn\/api\/advertise\/banner url reject-dict
+^https:\/\/oxadmin\.cp\.com\.cn\/api\/(hot\/index|advertise\/banner) url reject-dict
 
 
 [mitm]
