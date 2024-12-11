@@ -1,4 +1,18 @@
-# > Proxy
+# > Others
 DOMAIN-SUFFIX,github.com,Proxy
 DOMAIN-SUFFIX,web.telegram.org,Proxy
 DOMAIN-SUFFIX,t.me,Proxy
+
+# > Google AI
+DOMAIN-SUFFIX,bard.google.com,Proxy
+DOMAIN-SUFFIX,deepmind.com,Proxy
+DOMAIN-SUFFIX,deepmind.google,Proxy
+DOMAIN-SUFFIX,gemini.google.com,Proxy
+DOMAIN-SUFFIX,generativeai.google,Proxy
+DOMAIN-SUFFIX,apis.google.com,Proxy
+
+# > AI
+DOMAIN-KEYWORD,openai,Proxy
+DOMAIN-KEYWORD,colab,Proxy
+DOMAIN-KEYWORD,developerprofiles,Proxy
+DOMAIN-KEYWORD,generativelanguage,Proxy
