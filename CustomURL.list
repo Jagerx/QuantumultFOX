@@ -1,0 +1,4 @@
+# > Proxy
+DOMAIN-SUFFIX,github.com,Proxy
+DOMAIN-SUFFIX,web.telegram.org,Proxy
+DOMAIN-SUFFIX,t.me,Proxy
