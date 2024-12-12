@@ -1,7 +1,6 @@
 # > Others
-DOMAIN-SUFFIX,github.com,Proxy
-DOMAIN-SUFFIX,web.telegram.org,Proxy
-DOMAIN-SUFFIX,t.me,Proxy
+DOMAIN-KEYWORD,github.com,Proxy
+DOMAIN-KEYWORD,telegram,Proxy
 
 # > Google AI
 DOMAIN-SUFFIX,bard.google.com,Proxy
