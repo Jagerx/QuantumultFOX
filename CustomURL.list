@@ -15,3 +15,10 @@ DOMAIN-KEYWORD,openai,Proxy
 DOMAIN-KEYWORD,colab,Proxy
 DOMAIN-KEYWORD,developerprofiles,Proxy
 DOMAIN-KEYWORD,generativelanguage,Proxy
+
+# > Adobe Blocklist
+DOMAIN-SUFFIX,adobe.io,REJECT
+
+# > Adobe Allowed Domains
+DOMAIN,photos.adobe.io,DIRECT
+DOMAIN,lcs-cops.adobe.io,DIRECT
