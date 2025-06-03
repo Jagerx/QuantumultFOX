@@ -22,3 +22,13 @@ DOMAIN-SUFFIX,adobe.io,REJECT
 # > Adobe Allowed Domains
 DOMAIN,photos.adobe.io,DIRECT
 DOMAIN,lcs-cops.adobe.io,DIRECT
+
+# > Copilot
+DOMAIN-SUFFIX,copilot.microsoft.com,Proxy
+
+# > Linkedin
+DOMAIN-SUFFIX,linkedin.cn,Proxy
+DOMAIN-SUFFIX,linkedin.com,Proxy
+
+# > 防止 Bing 地区检测
+DOMAIN-SUFFIX,location.microsoft.com,Proxy
