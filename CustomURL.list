@@ -26,6 +26,9 @@ DOMAIN,lcs-cops.adobe.io,DIRECT
 # > Copilot
 DOMAIN-SUFFIX,copilot.microsoft.com,Proxy
 
+# > iRingo_News
+DOMAIN,gateway.icloud.com,Proxy
+
 # > Linkedin
 DOMAIN-SUFFIX,linkedin.cn,Proxy
 DOMAIN-SUFFIX,linkedin.com,Proxy
