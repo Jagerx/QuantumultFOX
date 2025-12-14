@@ -5,7 +5,7 @@ https://www.92hm.top
 
 
 [rewrite_local]
-^https:\/\/www\.(mxs11\.cc|92hm\.top)\/(chapter|book)\/\d+ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mxshm.js
+^https:\/\/www\.(mxs11\.cc|92hm\.top)\/(chapter|book)\/\d+ url script-response-body https://raw.githubusercontent.com/Jagerx/QuantumultFOX/refs/heads/main/HM_AntiADs.js
 
 [mitm]
 hostname = www.mxs11.cc, www.92hm.top
