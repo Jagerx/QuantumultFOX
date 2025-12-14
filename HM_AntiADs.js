@@ -13,7 +13,8 @@ hostname = www.mxs11.cc, www.92hm.top
 let body = $response.body;
 
 /* ===== 执行验证日志 ===== */
-console.log('[mxshm.js] script-response-body executed:', $request && $request.url);
+console.log('[HM_AntiADs.js] executed:', $request && $request.url);
+
 
 /* 详情页（substr(22) + Function(b)） */
 body = body.replace(
