@@ -7,6 +7,8 @@ DOMAIN-KEYWORD,analysis,REJECT
 # (F)
 # > FT中文网APP去广告
 DOMAIN-SUFFIX,adclick.g.doubleclick.net,REJECT
+# > ForkLift屏蔽更新
+DOMAIN,updates.binarynights.com,REJECT
 
 # (G)
 # > Google
