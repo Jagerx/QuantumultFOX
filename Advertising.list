@@ -6,7 +6,7 @@ DOMAIN-KEYWORD,analysis,REJECT
 
 # (A)
 # > AltTab屏蔽更新
-DOMAIN,alt-tab.app,REJECT
+DOMAIN-SUFFIX,alt-tab.app,REJECT
 
 # (F)
 # > FT中文网APP去广告
