@@ -4,6 +4,10 @@ DOMAIN-KEYWORD,adservice,REJECT
 DOMAIN-KEYWORD,analytics,REJECT
 DOMAIN-KEYWORD,analysis,REJECT
 
+# (A)
+# > AltTab屏蔽更新
+DOMAIN,alt-tab.app,REJECT
+
 # (F)
 # > FT中文网APP去广告
 DOMAIN-SUFFIX,adclick.g.doubleclick.net,REJECT
