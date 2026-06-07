@@ -7,7 +7,6 @@ DOMAIN-KEYWORD,analysis,REJECT
 # (A)
 # > AltTab屏蔽更新
 DOMAIN-SUFFIX,alt-tab.app,REJECT
-URL-REGEX,^https:\/\/raw\.githubusercontent\.com\/lwouis\/alt-tab-macos\/.*appcast\.xml.*,REJECT
 
 # (F)
 # > FT中文网APP去广告
