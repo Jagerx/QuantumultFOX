@@ -4,6 +4,8 @@
 DOMAIN-KEYWORD,analytics.,REJECT
 DOMAIN-KEYWORD,app-analytics,REJECT
 DOMAIN-KEYWORD,analytics-cdn.,REJECT
+# Microsoft 用户行为分析及会话追踪
+DOMAIN-SUFFIX,clarity.ms,REJECT
 
 # (A)
 # > AltTab屏蔽更新
@@ -40,7 +42,6 @@ DOMAIN-SUFFIX,doubleclick.cn,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,2mdn-cn.net,REJECT
 
-
 # > Google AdMob
 # Google 移动 App 广告平台
 DOMAIN-SUFFIX,admob.com,REJECT
@@ -69,6 +70,14 @@ DOMAIN-SUFFIX,googlesyndication-cn.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletagservices-cn.com,REJECT
 
+# > Google Analytics
+# Google 网站及 App 使用统计/行为分析
+DOMAIN-SUFFIX,google-analytics.com,REJECT
+DOMAIN-SUFFIX,google-analytics-cn.com,REJECT
+DOMAIN-SUFFIX,googleanalytics.com,REJECT
+DOMAIN-SUFFIX,app-measurement.com,REJECT
+DOMAIN-SUFFIX,app-measurement-cn.com,REJECT
+
 # > Google Tag Manager
 # Google 标签管理服务，可承载 Analytics / Ads 等追踪标签
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
@@ -88,6 +97,9 @@ DOMAIN-SUFFIX,inmobicdn.net,REJECT
 # ByteDance 移动广告平台
 DOMAIN-SUFFIX,pangle.io,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,pangolin.snssdk.com,REJECT
+DOMAIN-SUFFIX,ad.toutiao.com,REJECT
 
 # (S)
 # > Sogou
@@ -95,5 +107,18 @@ DOMAIN-SUFFIX,pro.cdn.ime.sogou.com,REJECT
 DOMAIN-SUFFIX,pro.cdn2.ime.sogou.com,REJECT
 
 # (T)
+# > Taboola
+# 原生广告推荐及行为/转化追踪平台
+DOMAIN,beacon.taboola.com,REJECT
+DOMAIN,trc.taboola.com,REJECT
+DOMAIN,trc-events.taboola.com,REJECT
+
+# (U)
+# > Unity
+# Unity 移动游戏广告/变现平台
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
+
 # > 铁路12306
 # HOST, ad.12306.cn, REJECT
