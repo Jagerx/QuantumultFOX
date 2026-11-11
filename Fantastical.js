@@ -2,7 +2,7 @@
 Fantastical Unlock byddgksf2013
 
 [rewrite_local]
-^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fantastical.js
+^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/Jagerx/QuantumultFOX/refs/heads/main/Fantastical.js
 
 [mitm]
 hostname = api.flexibits.com
